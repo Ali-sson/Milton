@@ -78,7 +78,7 @@ function Home() {
     Who We Are
   </h1>
 
-  <div data-aos="fade-up" data-aos-delay="200"  className='flex flex-col lg:flex-row items-center gap-10 mt-10 px-10 md:px-20'>
+  <div data-aos="fade-up" data-aos-delay="200"  className='flex flex-col lg:flex-row items-center gap-10 mt-10 px-4 md:px-20'>
     
     <img 
       src={AboutUs} 
@@ -88,12 +88,12 @@ function Home() {
 
     <div className="flex flex-col items-center md:items-start">
       
-      <p  className='text-base px-4 font-inter mt-4 text-subText text-center md:text-left max-w-3xl text-[#1A1A1A]'>
+      <p  className='text-base font-inter mt-4 text-center md:text-left max-w-3xl text-[#1A1A1A]'>
         Milton Services provides structured, professional support for international travel, tourism, and family-related journeys. 
         From planning to arrival, we help you navigate every step with clarity and confidence.
       </p>
 
-      <button className='text-primary border-2 py-2 px-6 mt-6 font-inter font-medium bg-accent hover:bg-hover transition duration-300 rounded-lg self-center md:self-start ml-5'>
+      <button className='text-accent border-2 border-accent py-2 px-6 mt-6 font-inter font-medium bg-white hover:bg-hover transition duration-300 rounded-lg self-center md:self-start ml-5'>
         About Us
       </button>
 
@@ -104,7 +104,7 @@ function Home() {
 </section>
 
 
-      <section className=' py-5 bg-mainBg'>
+      <section className=' py-5 px-2 bg-mainBg'>
       <div className='text-center bg-mainBg'>
         <p data-aos="zoom in" data-aos-delay="200"  className='text-sm tracking-widest text-accent uppercase'>
           WHAT WE DO
@@ -118,14 +118,14 @@ function Home() {
 
       {/* Cards Section */}
       
-        <div data-aos="fade-up" data-aos-delay="200"  className='grid gap-5 md:grid-cols-2 lg:grid-cols-3 mt-10 px-10 md:px-20 rounded-lg'>
+        <div data-aos="fade-up" data-aos-delay="200"  className='grid gap-5 md:grid-cols-2 lg:grid-cols-3 mt-10 px-4 md:px-20 rounded-lg'>
           {services.map((service) => (
             <ServiceCard key={service.id} service={service} />
           ))}
          
         </div>
 
-          <button className=' text-primary border-2 py-2 px-4 mt-10 font-inter block font-medium hover:bg-hover bg-accent transition 
+          <button className=' text-accent border-2 border-accent py-2 px-4 mt-10 font-inter block font-medium bg-white hover:bg-hover transition 
           duration-300 rounded-lg
           text-center mx-auto my-10'>
             Learn More
