@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import ServiceCard from '../components/ServiceCard'
 import AboutUs from '../assets/AboutUs.jpg'
 
+import Image from '../assets/hero-travel.jpg'
+
 import {
   FaMapMarkedAlt,
   FaPassport,
@@ -67,7 +69,18 @@ function Home() {
 
   return (
     <>
-      <Hero/>
+      <Hero
+      className="h-[70vh] md:h-[100vh] "
+        image={Image}
+        subtitle="MILTON SERVICES"
+        title={"Trusted international\n Travel Support"}
+        description="From planning to arrival, we help you navigate every step of your international journey with clarity and confidence."
+        showButtons={true}
+        
+      />
+
+
+
 <section className='text-center py-20 bg-mainBg'>
 
   <p data-aos="zoom in" data-aos-delay="200"  className="text-sm tracking-widest text-accent uppercase">
@@ -106,10 +119,10 @@ function Home() {
 
       <section className=' py-5 px-2 bg-mainBg'>
       <div className='text-center bg-mainBg'>
-        <p data-aos="zoom in" data-aos-delay="200"  className='text-sm tracking-widest text-accent uppercase'>
+        <p data-aos="zoom in" data-aos-delay="200"  className='text-sm tracking-widest text-accent uppercase font-inter'>
           WHAT WE DO
         </p>
-        <h2 data-aos="fade-up" data-aos-delay="220"  className='text-4xl font-serif mt-4 font-bold text-primary'>Our Services</h2>
+        <h2 data-aos="fade-up" data-aos-delay="220"  className='text-4xl font-playfair mt-4 font-bold text-primary'>Our Services</h2>
         <p data-aos="fade-up" data-aos-delay="250"  className='text-base px-4 font-inter mt-4 text-[1A1A1A]'>
           We provide comprehensive travel support for international journeys, ensuring a smooth and enjoyable
           <br /> from planning to arrival.
@@ -133,7 +146,7 @@ function Home() {
         </section>
         
         <div className=' text-center py-20 bg-primary'>
-          <h1 className='text-3xl font-serif mb-2 text-white '>Ready to Start Your Journey?</h1>
+          <h1 className='text-3xl font-playfair mb-2 text-white '>Ready to Start Your Journey?</h1>
           <p className='px-4 text-white'>Book a consultation and let us handle the details so you can focus on what matters.</p>
             <button className='text-primary py-2 px-4 mt-10 font-inter block font-medium hover:bg-hover bg-accent transition 
           duration-300 rounded-lg

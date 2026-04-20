@@ -5,21 +5,21 @@ function Footer() {
   return (
     <>
 
-   <section className='flex flex-col md:flex-row justify-between bg-FooterBg text-white py-10 px-6 md:px-20 mt-0
-   items-start gap-20'>
+   <section className='flex flex-col md:flex-row justify-between bg-FooterBg text-white py-20 px-6 md:px-20 mt-0
+   items-start gap-10'>
     <div>
-        <h1 className='text-2xl text-accent font-inter font-semibold'>Milton services</h1>
+        <h1 className='text-2xl text-accent font-playfair font-semibold'>Milton Services</h1>
         <p className='text-sm tracking-wider leading-[1.75] mt-2'>Trusted international travel support for <br/> individuals and families. 
         From planning <br/> to arrival.</p>
     </div>
 
     <div>
-        <h2 className='text-base font-serif text-accent'>Quick Links</h2>
+        <h2 className='text-base font-playfair text-accent'>Quick Links</h2>
         <ul className='text-sm mt-2 leading-[1.75]'>
-            <li><a href='#' className='hover:text-green-500 '>Home</a></li>
-            <li><a href='#' className='hover:text-green-500'>Services</a></li>
-            <li><a href='#' className='hover:text-green-500'>About Us</a></li>
-            <li><a href='#' className='hover:text-green-500'>Contact</a></li>
+            <li><a href='#' className='hover:text-accent'>Home</a></li>
+            <li><a href='#' className='hover:text-accent'>Services</a></li>
+            <li><a href='#' className='hover:text-accent'>About Us</a></li>
+            <li><a href='#' className='hover:text-accent'>Contact</a></li>
         </ul>
 
     </div>
@@ -32,7 +32,7 @@ function Footer() {
    
    </section>
    <hr className="border-t border-black-300" />
- <footer className='text-center text-sm bg-FooterBg py-4 text-subText'>
+ <footer className='text-center text-sm bg-FooterBg py-10 text-subText'>
         <p>&copy; {new Date().getFullYear()} Milton services. All rights reserved.</p>
     </footer>
    
