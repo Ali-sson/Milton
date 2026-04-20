@@ -75,9 +75,9 @@ const mission = [
       
       </section>
 
-      <div className='grid md:grid-cols-2 gap-20 px-10 md:px-20 py-20 max-w-8xl m-auto bg-mainBg '>
+      <div className='grid md:grid-cols-2 gap-20 px-2 md:px-20 py-20 max-w-3xl m-auto bg-mainBg '>
         {mission.map((item)=> (
-          <div key={item.id} className='border-2 py-10 px-10 rounded-lg bg-white hover:scale-105 transition duration-300 ' >
+          <div key={item.id} className='border-2 py-10 px-5 rounded-lg bg-white hover:scale-105 transition duration-300 ' >
             <div>
               {item.icon && <item.icon size={40} className='text-accent mb-4' />}
             </div>

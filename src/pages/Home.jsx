@@ -70,7 +70,7 @@ function Home() {
   return (
     <>
       <Hero
-      className="h-[70vh] md:h-[100vh] "
+      className="h-[90vh] md:h-[100vh] "
         image={Image}
         subtitle="MILTON SERVICES"
         title={"Trusted international\n Travel Support"}
@@ -106,7 +106,7 @@ function Home() {
         From planning to arrival, we help you navigate every step with clarity and confidence.
       </p>
 
-      <button className='text-accent border-2 border-accent py-2 px-6 mt-6 font-inter font-medium bg-white hover:bg-hover transition duration-300 rounded-lg self-center md:self-start ml-5'>
+      <button className='text-accent border-2 border-accent py-2 px-6 mt-6 font-inter font-medium bg-white hover:bg-hover transition duration-300 rounded-lg self-center md:self-start '>
         About Us
       </button>
 
