@@ -2,7 +2,7 @@ import React from 'react'
 
 function Packages() {
   return (
-    <div>Packages</div>
+    <div className='text-center py-20'>Coming Soon</div>
   )
 }
 

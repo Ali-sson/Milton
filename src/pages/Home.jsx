@@ -14,6 +14,7 @@ import {
   FaHandsHelping,
   FaUserShield,
 } from "react-icons/fa";
+
 import Footer from '../components/Footer';
 
 
@@ -106,9 +107,9 @@ function Home() {
         From planning to arrival, we help you navigate every step with clarity and confidence.
       </p>
 
-      <button className='text-accent border-2 border-accent py-2 px-6 mt-6 font-inter font-medium bg-white hover:bg-hover transition duration-300 rounded-lg self-center md:self-start '>
+      <a href="/about" className='text-accent border-2 border-accent py-2 px-6 mt-6 font-inter font-medium bg-white hover:bg-hover hover:text-primary transition duration-300 rounded-lg self-center md:self-start '>
         About Us
-      </button>
+      </a>
 
     </div>
 
@@ -138,21 +139,24 @@ function Home() {
          
         </div>
 
-          <button className=' text-accent border-2 border-accent py-2 px-4 mt-10 font-inter block font-medium bg-white hover:bg-hover transition 
-          duration-300 rounded-lg
+        <div className='text-center'> 
+
+          <a href="/services" className=' text-accent border-2 border-accent py-2 px-4 mt-10 font-inter font-medium bg-white hover:bg-hover transition 
+          duration-300 rounded-lg inline-block 
           text-center mx-auto my-10'>
             Learn More
-        </button>
+        </a>
+        </div>
         </section>
         
         <div className=' text-center py-20 bg-primary'>
           <h1 className='text-3xl font-playfair mb-2 text-white '>Ready to Start Your Journey?</h1>
           <p className='px-4 text-white'>Book a consultation and let us handle the details so you can focus on what matters.</p>
-            <button className='text-primary py-2 px-4 mt-10 font-inter block font-medium hover:bg-hover bg-accent transition 
+            <a href="/contact" className='text-primary py-2 px-4 mt-10 font-inter inline-block font-medium hover:bg-hover bg-accent transition 
           duration-300 rounded-lg
           text-center mx-auto'>
             Get in Touch
-        </button>
+        </a>
         </div>
 
         <Footer/>

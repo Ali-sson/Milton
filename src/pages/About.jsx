@@ -65,9 +65,9 @@ const mission = [
 
             <p className='text-base font-inter text-center md:text-left mt-4 '>Whether you're traveling for tourism, family matters, or specialized purposes, we coordinate every detail so your experience is seamless from start to finish.</p>
       
-            <button className='text-accent border-2 border-accent py-2 px-6 mt-6 font-inter font-medium bg-white hover:bg-hover transition duration-300 rounded-lg self-center md:self-start ml-0'>
+            <a href='/services' className='text-accent border-2 border-accent py-2 px-6 mt-6 font-inter font-medium bg-white hover:text-primary hover:bg-hover transition duration-300 rounded-lg self-center md:self-start ml-0'>
               Our Services
-            </button>
+            </a>
       
           </div>
       
@@ -87,6 +87,16 @@ const mission = [
         ))}
       </div>
     </div>
+
+     <div className=' text-center py-20 bg-primary'>
+          <h1 className='text-3xl font-playfair mb-2 text-white '>Let’s guide your journey forward</h1>
+          <p className='px-4 text-white'>We provide clear, structured, and reliable support to help you navigate every stage of your international travel.</p>
+            <a href='/contact' className='text-primary py-2 px-4 mt-10 font-inter inline-block font-medium hover:bg-hover bg-accent transition 
+          duration-300 rounded-lg
+          text-center mx-auto'>
+            Contact Us
+        </a>
+        </div>
 
     <Footer/>
 

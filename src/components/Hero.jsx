@@ -36,12 +36,12 @@ function Hero({ image, subtitle, title, description, showButtons, className }){
   
 {showButtons && (
   <div className="mt-6 flex flex-col md:flex-row w-full   gap-4 justify-center ">
-    <button className='bg-[#D4AF37] text-[#0B3D91] px-6 py-3 rounded-md hover:bg-[#B8962E] transition duration-300 font-inter font-medium'>
+    <a href="/packages" className='bg-[#D4AF37] text-[#0B3D91] px-6 py-3 rounded-md hover:bg-[#B8962E] transition duration-300 font-inter font-medium'>
       View Packages
-    </button>
-    <button className='bg-white text-primary px-10 py-3 rounded-md hover:bg-hover hover:text-white transition duration-300 font-inter font-medium'>
+    </a>
+    <a href="/contact" className='bg-white text-primary px-10 py-3 rounded-md hover:bg-hover hover:text-white transition duration-300 font-inter font-medium'>
       Book Consultation
-    </button>
+    </a>
   </div>
 )}
 </div>

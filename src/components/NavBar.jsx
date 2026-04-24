@@ -35,16 +35,31 @@ export default function Navbar() {
        
       </div>
 
-      {/* Mobile */}
+      {/* Mobile
       {isOpen && (
         <div className="absolute top-full left-0 w-full h-screen bg-primary text-black py-4 px-4 flex flex-col space-y-4 md:hidden">
           <Link to="/" onClick={handleLinkClick} className="text-white hover:text-accent">Home</Link>
           <Link to="/about" onClick={handleLinkClick} className="text-white hover:text-accent">About</Link>
           <Link to="/services" onClick={handleLinkClick} className="text-white hover:text-accent">Services</Link>
-          <Link to="/contact" onClick={handleLinkClick} className="text-white hover:text-accent">Contact</Link>
           <Link to="/packages" onClick={handleLinkClick} className="text-white hover:text-accent">Packages</Link>
+          <Link to="/contact" onClick={handleLinkClick} className="text-white hover:text-accent">Contact</Link>
         </div>
-      )}
+      )} */}
+
+      {/* Mobile */}
+{/* Mobile */}
+<div
+  className={`absolute top-full right-0 w-full h-screen bg-primary text-black py-4 px-4 flex flex-col space-y-4 md:hidden
+  transform transition-all duration-300 ease-in-out
+  ${isOpen ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full pointer-events-none"}`}
+>
+  <Link to="/" onClick={handleLinkClick} className="text-white hover:text-accent">Home</Link>
+  <Link to="/about" onClick={handleLinkClick} className="text-white hover:text-accent">About</Link>
+  <Link to="/services" onClick={handleLinkClick} className="text-white hover:text-accent">Services</Link>
+  <Link to="/packages" onClick={handleLinkClick} className="text-white hover:text-accent">Packages</Link>
+  <Link to="/contact" onClick={handleLinkClick} className="text-white hover:text-accent">Contact</Link>
+</div>
     </nav>
   );
 }
+
