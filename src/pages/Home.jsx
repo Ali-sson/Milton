@@ -141,7 +141,7 @@ function Home() {
 
         <div className='text-center'> 
 
-          <a href="/services" className=' text-accent border-2 border-accent py-2 px-4 mt-10 font-inter font-medium bg-white hover:bg-hover transition 
+          <a href="/services" className=' text-accent border-2 border-accent py-2 px-4 mt-10 font-inter font-medium bg-white hover:bg-hover hover:text-primary transition 
           duration-300 rounded-lg inline-block 
           text-center mx-auto my-10'>
             Learn More
