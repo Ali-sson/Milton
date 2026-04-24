@@ -12,6 +12,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+import ScrollToTop from "./ScrollToTop";
+
 
 function App() {
    const location = useLocation(); // must be inside component
@@ -29,6 +31,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
     
       <Routes>
         <Route path="/" element={<Home />} />
