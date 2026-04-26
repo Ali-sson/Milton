@@ -28,7 +28,7 @@ function Hero({ image, subtitle, title, description, showButtons, className }){
   </h1>
 
   <p data-aos="fade-up" data-aos-delay="200"  
-     className='font-inter text-white mx-auto mt-6 max-w-3xl text-lg '>
+     className='font-inter text-white mx-auto md:mt-6 mt-2 max-w-3xl text-lg '>
     {/* From planning to arrival, we help you navigate every step of your international
      journey with clarity and confidence. */}
       {description}

@@ -13,7 +13,7 @@ function ServiceCard({service}) {
             {service.title}
         </h3>
 
-        <p className='text-[#1A1A1A]'>{service.description}</p>
+        <p className='text-subText'>{service.description}</p>
     </div>
    
 

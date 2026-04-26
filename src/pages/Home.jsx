@@ -102,7 +102,7 @@ function Home() {
 
     <div className="flex flex-col items-center md:items-start">
       
-      <p  className='text-base font-inter mt-4 text-center md:text-left max-w-3xl text-[#1A1A1A]'>
+      <p  className='text-base font-inter mt-4 text-center md:text-left max-w-3xl text-subText'>
         Milton Services provides structured, professional support for international travel, tourism, and family-related journeys. 
         From planning to arrival, we help you navigate every step with clarity and confidence.
       </p>
@@ -124,7 +124,7 @@ function Home() {
           WHAT WE DO
         </p>
         <h2 data-aos="fade-up" data-aos-delay="220"  className='text-4xl font-playfair mt-4 font-bold text-primary'>Our Services</h2>
-        <p data-aos="fade-up" data-aos-delay="250"  className='text-base font-inter mt-4 max-w-3xl text-center mx-auto text-[#1A1A1A]'>
+        <p data-aos="fade-up" data-aos-delay="250"  className='text-base font-inter mt-4 max-w-3xl text-center mx-auto text-subText'>
           We provide comprehensive travel support for international journeys, ensuring a smooth and enjoyable
           <br /> from planning to arrival.
         </p>
