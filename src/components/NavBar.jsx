@@ -58,6 +58,7 @@ export default function Navbar() {
   <Link to="/about" onClick={handleLinkClick} className="text-white hover:text-accent">About</Link>
   <Link to="/services" onClick={handleLinkClick} className="text-white hover:text-accent">Services</Link>
   <Link to="/packages" onClick={handleLinkClick} className="text-white hover:text-accent">Packages</Link>
+     <Link to="/faq" onClick={handleLinkClick} className="text-white hover:text-accent">FAQ</Link>
   <Link to="/contact" onClick={handleLinkClick} className="text-white hover:text-accent">Contact</Link>
 </div>
 
